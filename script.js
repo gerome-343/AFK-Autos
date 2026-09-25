@@ -1,0 +1,1 @@
+function sendForm(e){e.preventDefault();const n=document.getElementById('name').value,p=document.getElementById('phone').value,m=document.getElementById('message').value;location.href='mailto:kontakt@wasserpro-hamburg.de?subject='+encodeURIComponent('Anfrage über die Website')+'&body='+encodeURIComponent(`Name: ${n}\nTelefon: ${p}\n\nAnliegen:\n${m}`);return false;}
